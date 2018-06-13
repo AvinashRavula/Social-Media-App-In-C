@@ -1,0 +1,25 @@
+﻿Build started 08-Jun-18 10:16:09 PM.
+     1>Project "D:\Avinash New\MissionRnD\CCourse\summercamp\Social Media App\Social Media App\Social Media App.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Social Media App.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Social Media App.cpp"
+         Social Media App.cpp
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\string_utils.h(21): warning C4101: 'output' : unreferenced local variable
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\socket_client.h(25): warning C4005: 'DEFAULT_PORT' : macro redefinition
+                 d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\socket_server.h(22) : see previous definition of 'DEFAULT_PORT'
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\socket_client.h(130): warning C4172: returning address of local variable or temporary
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\command_utils.h(38): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\query_operations.h(33): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\query_operations.h(96): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\server.h(283): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\client.h(137): warning C4129: 'm' : unrecognized character escape sequence
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\socket_client.h(144): warning C4715: 'send_request' : not all control paths return a value
+     1>d:\avinash new\missionrnd\ccourse\summercamp\social media app\social media app\menu_utils.h(102): warning C4717: 'show_authentication_menu' : recursive on all control paths, function will cause runtime stack overflow
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Avinash New\MissionRnD\CCourse\summercamp\Social Media App\Debug\Social Media App.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Avinash New\MissionRnD\CCourse\summercamp\Social Media App\Debug\Social Media App.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Avinash New\MissionRnD\CCourse\summercamp\Social Media App\Debug\Social Media App.lib" /MACHINE:X86 "Debug\Social Media App.obj"
+         Debug\stdafx.obj
+         Social Media App.vcxproj -> D:\Avinash New\MissionRnD\CCourse\summercamp\Social Media App\Debug\Social Media App.exe
+     1>Done Building Project "D:\Avinash New\MissionRnD\CCourse\summercamp\Social Media App\Social Media App\Social Media App.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.42
