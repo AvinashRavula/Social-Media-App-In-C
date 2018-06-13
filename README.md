@@ -6,11 +6,9 @@ This is one of my project which i did at MissionRnD
 * This is a Social Networking App where we can make a POST which will be visible to other users.<br>
 * Post is like uploading a file of any type.<br>
 * Any user can view/like/comment/update/delete/download a post.<br>
+* User can send and recieve messages to/from the other users connected in a common network.<br>
 * User has to signup/login to access the features of this app.<br>
 <br>
- 
-
-
 
 <b><font size="20">Developer Documentation</font></b><br/>
 
@@ -23,4 +21,6 @@ To access the data efficiently from the filesystem, i have divided the filesyste
 2. Next 2(two)MB for storing the whole database.<br>
 3. Remaining Memory is to store any type of data which will be organized by the above two steps.<br>
 <br>
+I have used Sockets to make users to get connected and have a sync of the database.<br>
+Sending and recieving of messages is also done through sockets only.<br>
 I have designed my own database management system for this app which is similiar to <b>HBase</b>. 
